@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">NUMAD22Summer_LipingDing1</string>
-    <string name="button_text">About Me</string>
+    <string name="about">About</string>
+    <string name="clicky_clicky">Clicky Clicky</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="A">Pressed: A</string>
+    <string name="B">Pressed: B</string>
+    <string name="C">Pressed: C</string>
+    <string name="D">Pressed: D</string>
+    <string name="E">Pressed: E</string>
+    <string name="F">Pressed: F</string>
+    <string name="dash">\"Pressed: - \"</string>
+    <string name="pressed">Pressed: -</string>
 </resources>

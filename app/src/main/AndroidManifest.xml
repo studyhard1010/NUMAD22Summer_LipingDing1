@@ -14,6 +14,9 @@
         android:theme="@style/Theme.NUMAD22Summer_LipingDing1"
         tools:targetApi="31">
         <activity
+            android:name=".ClickyActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
