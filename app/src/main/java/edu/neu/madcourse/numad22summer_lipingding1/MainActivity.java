@@ -27,10 +27,17 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
-        /** Called when the user taps the Clicky Clicky button */
+        // trying to connect when the user click the Clicky Clicky button
         public void Clicky(View view) {
             // Do something in response to button
             Intent intent = new Intent(MainActivity.this, ClickyActivity.class);
             startActivity(intent);
         }
+
+    //trying to connect when the user click the Link Connector button
+    public void connectLink(View view) {
+        // respond to button after starting activity
+        Intent intent = new Intent(MainActivity.this, ConnectLinkActivity.class);
+        startActivity(intent);
+    }
 }

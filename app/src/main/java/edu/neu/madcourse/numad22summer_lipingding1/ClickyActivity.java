@@ -19,10 +19,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
                 TextView textView = (TextView) findViewById(R.id.textView3);
 
-                Button textButton = (Button) findViewById(R.id.button);
+                Button textButton = (Button) findViewById(R.id.button1);
                 textButton.setOnTouchListener(new View.OnTouchListener() {
                     @Override
                     public boolean onTouch(View view, MotionEvent motionEvent) {
+                        String resourceEntryName = getResources().getResourceEntryName(view.getId());
                         switch (motionEvent.getAction()) {
                             case MotionEvent.ACTION_DOWN:
                                 textView.setText(R.string.A);

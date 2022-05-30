@@ -16,4 +16,6 @@
     <string name="F">Pressed: F</string>
     <string name="dash">\"Pressed: - \"</string>
     <string name="pressed">Pressed: -</string>
+    <string name="link_collector">Link Collector</string>
+    <string name="testlink">Testlink</string>
 </resources>
