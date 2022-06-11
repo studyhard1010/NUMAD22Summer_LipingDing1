@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="edu.neu.madcourse.numad22summer_lipingding1">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NUMAD22Summer_LipingDing1"
         tools:targetApi="31">
+        <activity
+            android:name=".A5Activity2"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".AddLinkActivity"
             android:exported="true" />
