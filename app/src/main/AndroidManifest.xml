@@ -3,8 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="edu.neu.madcourse.numad22summer_lipingding1">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="
+    android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="
+    android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -17,18 +21,12 @@
         android:theme="@style/Theme.NUMAD22Summer_LipingDing1"
         tools:targetApi="31">
         <activity
-            android:name=".A5Activity2"
-            android:parentActivityName=".MainActivity"
+            android:name=".A6LocationActivity"
             android:exported="false" />
         <activity
-            android:name=".AddLinkActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ConnectLinkActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ClickyActivity"
-            android:exported="true" />
+            android:name=".A5Activity2"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

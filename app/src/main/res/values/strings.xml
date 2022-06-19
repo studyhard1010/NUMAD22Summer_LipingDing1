@@ -18,7 +18,9 @@
     <string name="pressed">Pressed: -</string>
     <string name="link_collector">Link Collector</string>
     <string name="testlink">Testlink</string>
-    <string name="get_location">Get Location</string>
-    <string name="location">Location:</string>
-    <string name="get_current_location">Get Current Location</string>
+    <string name="position_1">( %1$.1f, %2$.1f)</string>
+    <string name="position_2">( %1$.2f, %2$.2f)</string>
+    <string name="position_3">( %1$.3f, %2$.3f)</string>
+    <string name="position_4">( %1$.4f, %2$.4f)</string>
+    <string name="distance">distance is %f meter</string>
 </resources>
