@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".A7WebServiceActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonPing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ping_web_service"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+            <TextView
+                android:id="@+id/webServiceView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/message_area"
+                app:layout_constraintBottom_toTopOf="@id/textPrompt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                app:layout_constraintBottom_toTopOf="@+id/checkBox6"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textPrompt" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2"
+                app:layout_constraintBottom_toTopOf="@+id/checkBox7"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox3"
+                app:layout_constraintStart_toEndOf="@id/checkBox1"
+                app:layout_constraintTop_toBottomOf="@id/textPrompt" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3"
+                app:layout_constraintBottom_toTopOf="@+id/checkBox8"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox4"
+                app:layout_constraintStart_toEndOf="@id/checkBox2"
+                app:layout_constraintTop_toBottomOf="@id/textPrompt" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_4"
+                app:layout_constraintBottom_toTopOf="@+id/checkBox9"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox5"
+                app:layout_constraintStart_toEndOf="@id/checkBox3"
+                app:layout_constraintTop_toBottomOf="@id/textPrompt" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5"
+                app:layout_constraintBottom_toTopOf="@+id/checkBox10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/checkBox4"
+                app:layout_constraintTop_toBottomOf="@id/textPrompt" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6"
+                app:layout_constraintBottom_toTopOf="@id/buttonPing"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/checkBox1" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_7"
+                app:layout_constraintBottom_toTopOf="@id/buttonPing"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox8"
+                app:layout_constraintStart_toEndOf="@id/checkBox6"
+                app:layout_constraintTop_toBottomOf="@id/checkBox2" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_8"
+                app:layout_constraintBottom_toTopOf="@id/buttonPing"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox9"
+                app:layout_constraintStart_toEndOf="@id/checkBox7"
+                app:layout_constraintTop_toBottomOf="@id/checkBox3" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_9"
+                app:layout_constraintBottom_toTopOf="@id/buttonPing"
+                app:layout_constraintEnd_toStartOf="@+id/checkBox10"
+                app:layout_constraintStart_toEndOf="@id/checkBox8"
+                app:layout_constraintTop_toBottomOf="@id/checkBox4" />
+
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_10"
+                app:layout_constraintBottom_toTopOf="@id/buttonPing"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/checkBox9"
+                app:layout_constraintTop_toBottomOf="@id/checkBox5" />
+
+            <TextView
+                android:id="@+id/textPrompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="248dp"
+                android:text="@string/prompt"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/webServiceView" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

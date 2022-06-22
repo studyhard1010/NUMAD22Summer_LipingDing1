@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main Activity"
+
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/textView"/>
@@ -18,7 +18,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="open activity 2"
+        android:text="Prime Time"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"/>
 
@@ -26,8 +26,17 @@
         android:id="@+id/buttonLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="open Location activity"
+        android:text="Location_activity"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/buttonWebService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openWebService"
+        android:text="web_service"
+        app:layout_constraintTop_toBottomOf="@id/buttonWebService" />
 
 </RelativeLayout>

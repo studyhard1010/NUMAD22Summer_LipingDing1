@@ -21,12 +21,15 @@
         android:theme="@style/Theme.NUMAD22Summer_LipingDing1"
         tools:targetApi="31">
         <activity
+            android:name=".A7WebServiceActivity"
+            android:exported="true" />
+        <activity
             android:name=".A6LocationActivity"
             android:exported="false" />
         <activity
             android:name=".A5Activity2"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:exported="false" />
+<!--            android:parentActivityName=".MainActivity" />-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
