@@ -15,23 +15,6 @@
         android:id="@+id/textView"/>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Prime Time"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"/>
-
-    <Button
-        android:id="@+id/buttonLocation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Location_activity"
-        android:layout_below="@+id/button"
-        android:layout_centerHorizontal="true"/>
-
-
-    <Button
         android:id="@+id/buttonWebService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -3,23 +3,16 @@ package edu.neu.madcourse.numad22summer_lipingding1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
-import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.*;
 import com.loopj.android.http.AsyncHttpResponseHandler;
-
-import java.util.ArrayList;
 
 import cz.msebera.android.httpclient.Header;
 
@@ -105,7 +98,6 @@ public class A7WebServiceActivity extends AppCompatActivity implements CompoundB
                     e.printStackTrace();
                 }
                 AsyncHttpClient client = new AsyncHttpClient();
-//               client.get("http://www.thomas-bayer.com/sqlrest/CUSTOMER/3/", new AsyncHttpResponseHandler() {
                 String sUrl = "https://jsonplaceholder.typicode.com/users/" + id;
                 client.get(sUrl, new AsyncHttpResponseHandler() {
                     @Override
@@ -117,7 +109,7 @@ public class A7WebServiceActivity extends AppCompatActivity implements CompoundB
 
                     @Override
                     public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-                        message.setText("Cannot connect to the remote server.");
+                        message.setText("Error in calling api! Cannot connect to the remote server.");
                     }
                 });
             }
