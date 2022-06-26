@@ -25,7 +25,7 @@
     <string name="distance">distance is %f meter</string>
     <string name="web_service">Web Service</string>
     <string name="ping_web_service">ping web service</string>
-    <string name="prompt">Please choose an id of specific information you want to refer to:\n(If you don\'t choose, all information on the page will display.)</string>
+    <string name="prompt">Please choose an id of specific inform:\n(Or just click PING to show all inform. )</string>
     <string name="message_area">Message Area</string>
     <string name="_1">1</string>
     <string name="_2">2</string>
